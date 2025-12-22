@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+body{
+    overflow-x:hidden;
+}
+
+#page1{
+    height:100%;
+    width:100%;
+    background-color: seagreen;
+}
+
+#page2{
+    height:100%;
+    width:100%;
+    background-color: coral;
+    text-wrap: nowrap;
+    padding:5vw 0;
+}
+
+#page3{
+    height:100%;
+    width:100%;
+    background-color: purple;
+}
+
+#page2 h1{
+    font-size:40vw; 
+}
+
+#box{
+    height:100px;
+    width:100px;
+    background-color: yellow;
+}
